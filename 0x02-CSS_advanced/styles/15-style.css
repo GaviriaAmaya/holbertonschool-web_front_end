@@ -33,7 +33,7 @@
 }
 
 * {
-	box-sizing: border-box;
+	box-sizing: content-box;
 }
 
 /* Smooth behavior to the document */
