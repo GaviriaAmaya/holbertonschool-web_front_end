@@ -1,3 +1,4 @@
+/* Adding color variables */
 :root {
 	--color-primary: #d73953;
 	--color-black: #090909;
@@ -7,6 +8,7 @@
 	--text-color: color-black;
 }
 
+/* Smooth behavior to the document */
 html {
 	scroll-behavior: smooth;
 }
