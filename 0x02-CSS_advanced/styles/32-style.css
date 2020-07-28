@@ -138,6 +138,8 @@ a:active {
 	color: var(--button-hover-color);
 	text-decoration: var(--button-hover-text-decoration);
 	background-color: var(--button-hover-background);
+	transition-duration: var(--transition-duration);
+	transition-property: background-color, color;
 }
 
 .visually-hidden {
@@ -285,6 +287,7 @@ ul.row {
 
 .card-work:hover .card-image {
 	transform: scale(1.2);
+	transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-outer {
@@ -297,6 +300,7 @@ ul.row {
 	left: -0.1rem;
 	right: -0.1rem;
 	z-index: 1;
+	transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-inner {
