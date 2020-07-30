@@ -1,0 +1,9 @@
+/* Use of mixin */
+@mixin side-margins($element, $amount) {
+	#{$element} {
+		margin-left: $amount;
+		margin-right: $amount;
+	}
+}
+@include side-margins(body, 10px);
+@include side-margins(div, 15px);
