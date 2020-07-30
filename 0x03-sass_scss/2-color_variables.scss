@@ -1,0 +1,22 @@
+/* Set elements with color and background color */
+$colors: #3D3D3D, #6D6D6D;
+$elements: body, p, h2;
+
+@each $element in $elements {
+	@if $element == body {
+		#{$element}	{
+			color: nth($colors, 1);
+			background-color: nth($colors, 2);
+		}
+	}
+	@else if $element == p {
+		#{$element} {
+			color: nth($colors, 1);
+		}
+	}
+	@else {
+		#{$element} {
+			background-color: nth($colors, 2);
+		}
+	}
+}
