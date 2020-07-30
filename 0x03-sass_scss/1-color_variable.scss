@@ -1,0 +1,8 @@
+/* Change the p and body color with Sass */
+$tags: body, p;
+
+@each $tag in $tags {
+	#{$tag} {
+		color: #3D3D3D;
+	}
+}
