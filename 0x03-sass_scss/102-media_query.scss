@@ -9,17 +9,12 @@ $breakpoints: (920px,
 		@each $breakpoint in $size {
 			$stdsize: $stdsize - 2;
 			@media screen and (max-width: #{$breakpoint}) {
-				@if $breakpoint == 320px {
-					& {
-						#{$property}: #{$stdsize}px;
+				& {
+					#{$property}: #{$stdsize}px;
+					@if $breakpoint == 320px {
 						&.small {
 							color: #1D1D1D;
 						}
-					}
-				}
-				@else {
-					& {
-						#{$property}: #{$stdsize}px;
 					}
 				}
 			}
