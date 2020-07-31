@@ -2,7 +2,7 @@
 $sizes: 100%, 50%, 33.3333333333%, 25%;
 
 @for $index from 1 to 5 {
-	col-#{$index} {
+	.col-#{$index} {
 		width: nth($sizes, $index);
 	}
 }
