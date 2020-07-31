@@ -1,0 +1,20 @@
+/* Create a media query with sass */
+$breakpoints: (920px,
+			  640px,
+			  320px);
+
+@mixin tag-responsive($selector, $property, $stdsize, $size) {
+	#{$selector} {
+		#{$property}: #{$stdsize}px;
+		@each $breakpoint in $size {
+			$stdsize: $stdsize - 2;
+			@media screen and (max-width: #{$breakpoint}) {
+				& {
+					#{$property}: #{$stdsize}px;
+				}	
+			}
+		}
+	}
+}
+
+@include tag-responsive(h1, font-size, 20, $breakpoints);
