@@ -473,9 +473,7 @@ ul.row {
 	display: block;
 }
 
-.social-link &gt;
-
-svg {
+.social-link > svg {
 	fill: var(--text-color);
 }
 
