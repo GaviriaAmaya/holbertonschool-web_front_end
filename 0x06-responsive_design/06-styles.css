@@ -227,17 +227,17 @@ ul.row {
 }
 
 @media only screen and (max-width: 767px) {
-	.root {
+	:root {
 		--section-padding: 5rem 1.5rem;
 		--section-body-padding: 2rem 0 0;
 	}
 
-	.ul-row, .row {
+	ul.row, .row {
 		flex-direction: column;
 		margin: 0;
 	}
 
-	[class*='col-'] {
+	[class^='col-'] {
 		margin: 0 0 3rem 0;
 	}
 
@@ -331,7 +331,7 @@ ul.row {
 }
 
 @media only screen and (max-width: 767px) {
-	.root {
+	:root {
 		--nav-item-margin: 0;		
 	}
 
@@ -344,7 +344,7 @@ ul.row {
 		flex-direction: column;
 		overflow: hidden;
 		max-height: 0;
-		transition: max-height .2s ease-out
+		transition: max-height .2s ease-out;
 	}
 }
 
