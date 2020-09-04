@@ -68,4 +68,4 @@ Some days ago, I was trying to use the [Read aloud](https://support.microsoft.co
 
 ### Aria labels
 
-Options as flavors. Aria labels counts as a great properties for forms. Good practices.
+Options as flavors. Aria labels counts as a great properties for forms. Good practices
