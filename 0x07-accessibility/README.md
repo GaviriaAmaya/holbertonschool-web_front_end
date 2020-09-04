@@ -3,20 +3,20 @@
 ## Contents
 
 - [0x07. Accessibility](#0x07-accessibility)
-	- [Contents](#contents)
-	- [Use, installation and preview](#use-installation-and-preview)
-	- [Learning Objectives](#learning-objectives)
-		- [ARIA’s main purpose](#arias-main-purpose)
-		- [WCAG conformance levels (A, AA and AAA)](#wcag-conformance-levels-a-aa-and-aaa)
-			- [A](#a)
-			- [AA](#aa)
-			- [AAA](#aaa)
-		- [The importance of Web Accessibility](#the-importance-of-web-accessibility)
-		- [Tools to use for Web Accessibility](#tools-to-use-for-web-accessibility)
-			- [For tesing](#for-tesing)
-	- [Captain's Log](#captains-log)
-		- [Lang attribute](#lang-attribute)
-		- [Aria labels](#aria-labels)
+  - [Contents](#contents)
+  - [Use, installation and preview](#use-installation-and-preview)
+  - [Learning Objectives](#learning-objectives)
+    - [ARIA’s main purpose](#arias-main-purpose)
+    - [WCAG conformance levels (A, AA and AAA)](#wcag-conformance-levels-a-aa-and-aaa)
+      - [A](#a)
+      - [AA](#aa)
+      - [AAA](#aaa)
+    - [The importance of Web Accessibility](#the-importance-of-web-accessibility)
+    - [Tools to use for Web Accessibility](#tools-to-use-for-web-accessibility)
+      - [For tesing](#for-tesing)
+  - [Captain's Log](#captains-log)
+    - [Lang attribute](#lang-attribute)
+    - [Aria labels](#aria-labels)
 
 ## Use, installation and preview
 
@@ -44,7 +44,7 @@ This is required, too. Consists on guidance on elements, such as contrast, error
 
 #### AAA
 
-This is optional. The AAA level is wide for almost everyone, but can change the design of a page and is considerably hard to implement some specific standards 
+This is optional. The AAA level is wide for almost everyone, but can change the design of a page and is considerably hard to implement some specific standards
 
 ### The importance of Web Accessibility
 
