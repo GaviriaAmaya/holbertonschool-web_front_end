@@ -1,4 +1,4 @@
-0x0C. Javascript advanced
+# 0x0C. Javascript advanced
 
 What is lexical scoping in Javascript
 What is closure in Javascript
