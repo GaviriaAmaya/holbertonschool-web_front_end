@@ -1,11 +1,11 @@
 // Function to change the DOM color mode
 /**
  * Change the styles of the DOM
- * @param {Number} size - Font size property
- * @param {String} weight - Font weight property
- * @param {String} transform - Text transform property
- * @param {String} background - Background color property
- * @param {String} color - Text color property
+ * @param {number} size - Font size property
+ * @param {string} weight - Font weight property
+ * @param {string} transform - Text transform property
+ * @param {string} background - Background color property
+ * @param {string} color - Text color property
  * @returns {function} styling - Closure to allow the calling in a local scope
  */
 function changeMode(size, weight, transform, background, color) {
