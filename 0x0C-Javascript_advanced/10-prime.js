@@ -32,4 +32,4 @@ for (let exe = 100; exe > 0; exe--) {
 }
 const postExe = performance.now();
 
-console.log(`Execution time of printing countPrimeNumbers was ${postExe - preExe} milliseconds.`);
+console.log(`Execution time of calculating prime numbers 100 times was ${postExe - preExe} milliseconds.`);
