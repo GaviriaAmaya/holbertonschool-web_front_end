@@ -23,7 +23,7 @@ function countPrimeNumbers() {
 		}
 		counter++;
 	}
-	return primes;
+	return primes.length;
 }
 
 const preExe = performance.now();

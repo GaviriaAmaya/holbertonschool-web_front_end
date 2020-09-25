@@ -27,7 +27,9 @@ function countPrimeNumbers() {
 }
 
 const preExe = performance.now();
-countPrimeNumbers();
+for (let exe = 100; exe > 0; exe--) {
+	countPrimeNumbers();
+}
 const postExe = performance.now();
 
 console.log(`Execution time of printing countPrimeNumbers was ${postExe - preExe} milliseconds.`);
