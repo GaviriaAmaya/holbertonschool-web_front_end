@@ -16,6 +16,7 @@
     - [How to use callbacks](#how-to-use-callbacks)
   - [Captain's Log](#captains-log)
     - [The wrapper problem](#the-wrapper-problem)
+  - [Authors](#authors)
 
 ## Use, installation and preview
 
@@ -60,3 +61,7 @@ There are many methods to use callbacks. For example, settimeout or onload allow
 ### The wrapper problem
 
 On [14-wikipedia problem](./14-wikipedia.js), the this context is lost on the onload method. It happens the asyncronous await reassume the this context. Curious
+
+## Authors
+
+Juan Amaya Gaviria. [GaviriaAmaya](github.com/GaviriaAmaya/)
