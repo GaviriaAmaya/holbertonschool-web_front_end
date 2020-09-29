@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Task 4</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script type="application/javascript">
+        $(document).ready(function () {
+            let lastname = 'Salva';
+
+            function createFamilyTree() {
+                function createTable(columns, rows)
+                {
+                    let cell = columns;
+
+                    //  Create table tag
+                    $('body').append('<table></table>');
+                    // Create header and first row
+                    $('table').append('<thead></thead>');
+                    $('thead').append('<tr></tr>');
+
+                    // Create th tags for columns
+                    while (columns != 0)
+                    {
+                        $('thead > tr').append('<th></th>');
+                        columns--;
+                    }
+
+                    $('table').append('<tbody></tbody>');
+
+                    while (rows != 0)
+                    {
+                        $('tbody').append('<tr></tr>');
+                        
+                        for (let i = 0; i != cell; i++)
+                        {
+                            if ($('tbody > tr').length == 1)
+                                $('tbody > tr').append('<td></td>');
+                            else
+                                $('tbody > tr:last').append('<td></td>');
+                        }
+                        rows--;
+                    }
+                }
+                createTable(2, 3);
+
+                $('thead > tr > th:nth-child(1)').text('Firstname');
+                $('thead > tr > th:nth-child(2)').text('Lastname');
+                $('tbody > tr:nth-child(1) > td:first').text('Guillaume');
+                $('tbody > tr:nth-child(1) > td:last').text(lastname);
+                $('tbody > tr:nth-child(2) > td:first').text('Paulette');
+                $('tbody > tr:nth-child(2) > td:last').text(lastname);
+                $('tbody > tr:nth-child(3) > td:first').text('Antoine');
+                $('tbody > tr:nth-child(3) > td:last').text(lastname);
+            }
+            createFamilyTree();
+
+            function replaceFamilyTree()
+            {
+                $('tbody').empty();
+                $('tbody').html(`
+                <tr>
+                  <td>Gerard</td>
+                  <td>Bonissa</td>
+                </tr>
+              `)
+            }
+            replaceFamilyTree();
+        });
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
